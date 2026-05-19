@@ -28,13 +28,15 @@ Stacked bars: droughts per decade since 1850 by intensity band (100k–1M affect
 
 **In plain English:** Each bar shows how many notable droughts occurred in a 10-year period, stacked by how big they were. The three dashed lines are trend fits for different monitoring eras: full record (1850+), EM-DAT-era (1950+, when international tracking began), and satellite era (1979+, when full global coverage came online). If droughts were getting more frequent for real, the trend would be steeper in the tighter eras. If it's mostly catalog improvement, the trends would shrink in tighter eras.
 
+**Above vs. below the trend lines:** A decade whose bar exceeds the trend line for an era had more droughts than the era's average; below the line means fewer. The 1870s–1880s bars rise above the full-catalog line (big Indian famine-droughts), while the 1920s–1940s bars sit below — fewer catalogued droughts in the WWII-era catalog, which may be partly real and partly because famines from that period got logged as famines, not droughts.
+
 ![Decadal counts](plots/02_decadal_counts_by_band.png)
 
 ### Great drought timing (≥1M affected)
 
 Cumulative count of ≥1M-affected droughts since 1850 vs a constant-rate reference, plus inter-event intervals.
 
-**In plain English:** Left panel: the grey dashed line is "what we'd see if big droughts hit on a perfectly steady clock." The red staircase is when ≥1M-affected events actually happened. When the staircase stays close to the line, the rate is roughly steady; when it pulls ahead, that's a busy stretch. Right panel: years between each big drought and the next one. Bigger bars = longer quiet periods.
+**In plain English:** Left panel: the grey dashed line is "what we'd see if big droughts hit on a perfectly steady clock." The red staircase is when ≥1M-affected events actually happened. **Above vs. below the line:** when the staircase is *above* the dashed reference, big droughts have been arriving *faster* than the long-run average; *below* means they've been arriving *slower*. The catalog spends extended periods above (1870s–early 1900s with the great Indian/Chinese famine-droughts) and below (mid-20th-C). Right panel: years between each big drought and the next one. Bigger bars = longer quiet periods.
 
 ![Great drought timing](plots/03_great_drought_timing.png)
 
@@ -43,6 +45,8 @@ Cumulative count of ≥1M-affected droughts since 1850 vs a constant-rate refere
 Log-log survival function with power-law fit on the ≥100k tail.
 
 **In plain English:** Reading the dots right to left: the further right, the bigger the drought; the lower a dot, the rarer events at that level are. The dashed line shows the predictable pattern that connects "small common droughts" to "rare huge ones." Earthquakes, famines, wars, and floods all follow similar tails — this is the universal "fat-tail" pattern of rare extreme events.
+
+**Above vs. below the line:** A dot *above* the dashed power-law fit means more droughts at that intensity than the scaling rule predicts — an excess of that severity in the catalog. A dot *below* the line means fewer than predicted. The 1876 Great Famine drought (30M deaths) and the Sahel long drought (80M affected) sit at the far right of the chart, and whether they fall above or below the line determines whether the very-worst events are "even worse than the fit predicts" (super-fat-tail) or "still within scaling." In this catalog they land roughly on the line — meaning even the catastrophic events follow the same predictable rule.
 
 ![Intensity distribution](plots/04_intensity_distribution.png)
 
