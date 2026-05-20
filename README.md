@@ -2,7 +2,7 @@
 
 Hand-curated catalog of major historical droughts from the 4.2-kiloyear event (~2200 BCE) to present.
 
-Parallel to `earthquakes`, `spaceweather`, `famines-tracking`, `flood-data`, `pandemics-tracking`, `volcanic-eruptions`, `tropical-cyclones`, `astronomical-signs`.
+One of 10 sibling repos analyzed together — see the [`correlations`](https://github.com/Biblejustin/correlations) hub for the cross-repo analysis.
 
 ## Quick findings
 
